@@ -8,7 +8,7 @@ export default function Navbar() {
         <nav className='text-white p-4 bg-danger d-flex justify-content-around  align-items-center'>
             
             <h4>
-              <Link to="/shopping">shopping cart</Link>
+              <Link to="/">shopping cart</Link>
             </h4>
             
             <Link to="/cart"><i class="fa-solid fa-cart-shopping fs-4"></i></Link>

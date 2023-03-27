@@ -9,7 +9,8 @@ function App() {
       <Router>
           <Navbar />
           <Routes>
-              <Route path="/shopping" element={<Shopping/>} />
+              <Route path="/" element={<Shopping/>} />
+              
               
               <Route path="/cart" element={<Cart/>} />
           </Routes>
