@@ -1,6 +1,8 @@
 import React, {useContext} from 'react'
 import './product.css'
 import {ShopContext} from "../../context/ShopContext"
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 export default function Product(props) {
     const {id, title, price, img} = props.data
     const { cartItems, AddCart, RemoveCart } = useContext(ShopContext);
@@ -15,7 +17,7 @@ export default function Product(props) {
                 <button onClick={()=>{AddCart(id)}}>add to cart
                 {
                   // if cartitem > 0 then 
-                  cartItemAmount > 0 && <> ({cartItemAmount}) </>
+                  cartItemAmount > 0 && <span> {cartItemAmount} </span>
                 }
                 
                 </button>

@@ -1,5 +1,6 @@
 import React, {useState, createContext } from 'react'
 import {PRODUCTS} from "../product"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // create context like store
 export const ShopContext = createContext(null)
