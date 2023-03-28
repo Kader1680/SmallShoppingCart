@@ -10,7 +10,7 @@ import f from "../src/img/f.png"
 import g from "../src/img/g.png"
 import h from "../src/img/h.png"
 
-export const AZE = [
+export const PRODUCTS = [
     {
         id:1,
         title: "title 1",

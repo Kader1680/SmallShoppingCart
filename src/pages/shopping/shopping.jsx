@@ -1,6 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {AZE} from "../../product"
+import {PRODUCTS} from "../../product"
 import Product from "./product"
 import './shopping.css'
 
@@ -8,7 +8,7 @@ export default function Shopping() {
   return (
     <div className='products' >
         {
-            AZE.map((item)=>
+          PRODUCTS.map((item)=>
             {
                 return(
                     <Product data = {item}  />
