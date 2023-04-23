@@ -1,10 +1,62 @@
+@media(max-width:767px){
+    .feild{
+        width: 18rem;
+        
+    }
+}
+@media(min-width:768px){
+    .feild{
+        width: 17rem;
+        
+    }
+}
+@media(min-width:991px){
+    .feild{
+        width: 16rem;
+        
+        
+    }
+}
+@media(min-width:1199px){}
+
+
 
 .feild{
-    width: 14rem;
-    /* background-color: rgb(36, 212, 95); */
+    /* width: 14rem; */
     
+    background-color: rgb(30, 30, 147);
+    color: white;
+    border: 2px solid rgb(30, 30, 147);
+    padding: 25px 5px;
 }
 .feild img{
-    width: 100%;
-    height: 60%;
+    width: 90%;
+    
+    height: 280px;
+    /* height: 60%; */
+}
+button{
+    width: 90%;
+
+    color: rgb(30, 30, 147);
+    background-color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    position: relative;
+}
+.counter{
+    background-color: rgb(30, 30, 147);
+    color: white;
+    position: absolute;
+    top: -22rem;
+    left: 13rem;
+    font-size: 20px;
+    font-weight: 700;
+    width: 45px;
+    border-radius: 9px;
+
 }

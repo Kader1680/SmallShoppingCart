@@ -6,7 +6,7 @@ import './shopping.css'
 
 export default function Shopping() {
   return (
-    <div className='products' >
+    <div className='products container' >
         {
           PRODUCTS.map((item)=>
             {
