@@ -3,21 +3,35 @@
         width: 18rem;
         
     }
+    .counter{
+        top: -22rem;
+        left: 13rem;
+    }
 }
 @media(min-width:768px){
     .feild{
         width: 17rem;
-        
+    }
+    .counter{
+        top: -22rem;
+        left: 12rem;
     }
 }
 @media(min-width:991px){
     .feild{
         width: 16rem;
-        
-        
+    }
+    .counter{
+        top: -22rem;
+        left: 11rem;
     }
 }
-@media(min-width:1199px){}
+@media(min-width:1199px){
+    .counter{
+        top: -341px;
+        left: 11rem;
+    }
+}
 
 
 
@@ -52,8 +66,7 @@ button{
     background-color: rgb(30, 30, 147);
     color: white;
     position: absolute;
-    top: -22rem;
-    left: 13rem;
+    
     font-size: 20px;
     font-weight: 700;
     width: 45px;
