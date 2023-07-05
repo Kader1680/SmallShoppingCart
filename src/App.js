@@ -15,9 +15,9 @@ export  function App() {
           <Router>
               <Navbar />
               <Routes>
-                  <Route path="/" element={<Shopping/>} />
+                  <Route path="/SmallShoppingCart" element={<Shopping/>} />
                   
-                  <Route path="/cart" element={<Cart/>} />
+                  <Route path="/SmallShoppingCart/cart" element={<Cart/>} />
               </Routes>
           </Router>
       </ShopContextProvider>
