@@ -8,12 +8,14 @@ import FormExample from "./comenents/login"
 // import ShopContext from "./context/ShopContext";
 
 import ShopContextProvider from "./context/ShopContext"
+import SliderImg from "./comenents/SliderImg";
 export  function App() {
   return (
     <div className="App">
       <ShopContextProvider>
           <Router>
               <Navbar />
+              <SliderImg />
               <Routes>
                   <Route path="/SmallShoppingCart" element={<Shopping/>} />
                   

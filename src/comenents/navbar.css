@@ -1,3 +1,13 @@
 nav{
-    background-color: rgb(30, 30, 147);
+    background-color: #004c3f;
+    z-index: 2;
+
+}
+@media(max-width:767px){
+    nav{
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 2;
+    }
 }
