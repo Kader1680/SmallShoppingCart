@@ -10,6 +10,7 @@
         display: grid;
         grid-template-columns: 66% 42%;
     }
+   
 }
 @media(min-width:1199px){}
 .card{

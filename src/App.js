@@ -15,7 +15,7 @@ export  function App() {
       <ShopContextProvider>
           <Router>
               <Navbar />
-              <SliderImg />
+              {/* <SliderImg /> */}
               <Routes>
                   <Route path="/SmallShoppingCart" element={<Shopping/>} />
                   
@@ -23,7 +23,6 @@ export  function App() {
               </Routes>
           </Router>
       </ShopContextProvider>
-      <FormExample/>
     </div>
   );
 }

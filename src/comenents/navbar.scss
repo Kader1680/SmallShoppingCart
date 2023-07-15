@@ -1,0 +1,130 @@
+@import '../scssstyle/_mixins';
+@import '../scssstyle/_variables';
+
+
+nav{
+    @include responsive-mobile($sm) {
+        
+            
+            .leftSide{
+                display: none;
+                position: fixed;
+                background-color: $box-color;
+                top: 82px;
+                width: 100%;
+                height: 100%;
+                text-align: center;
+                ul{
+                    list-style: none;
+                    position: absolute;
+                    width: 100%;
+                    margin: auto;
+                    list-style: none;
+                    li{
+                        color: $bg-color;
+                        margin-top: 52px;
+                    }
+                }
+                
+                .search{
+                    width: 73%;
+                    top: 77%;
+                    margin: auto;
+                }
+                
+            }
+            .fa-bars{
+                display: block;
+            }
+            .leftSide.blk{
+                display: block;
+                
+            }
+            
+        
+    }
+    @include responsive($md) {
+            .leftSide{
+                position: fixed;
+                background-color: $box-color;
+                top: 82px;
+                width: 100%;
+                height: 100%;
+                ul{
+                    
+                    list-style: none;
+                    li{
+                        color: $bg-color;
+            
+                    }
+                }
+                
+            }
+            .fa-bars{
+                display: block;
+            }
+            
+        
+    }
+    @include responsive($lg) {
+   
+            .leftSide{
+                ul{
+                    list-style: none;
+                    li{
+                        display: inline-block;
+                        margin-left: 10px;
+                        color: $bg-color;
+                    }
+                }
+                
+            }
+            .fa-bars{
+                opacity: 0;
+            }
+
+    }
+    @include responsive($xl) {
+    }
+    @include responsive($xxl) {
+    }
+    @include responsive($full) {
+    }
+}
+nav{
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+    background-color: $box-color;
+    .logo{
+        color: $bg-color;
+
+    }
+    .leftSide{
+        ul{
+            li{  
+                color: $bg-color;
+    
+            }
+        }
+        .search{
+            input{
+                outline: none;
+                border: none;
+            }
+            padding: 8px 0px;
+            background-color: white;
+        }
+
+        
+        
+    }
+    .fa-bars{
+        color: $bg-color;
+    }
+    .shop{
+        color: $bg-color;
+    }
+}

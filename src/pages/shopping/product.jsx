@@ -7,6 +7,7 @@ export default function Product(props) {
     const {id, title, price, img} = props.data
     const { cartItems, AddCart, RemoveCart } = useContext(ShopContext);
     const cartItemAmount = cartItems[id]
+    
   return (
     <div class="products">
         <div className='feild text-center rounded'>
@@ -24,6 +25,7 @@ export default function Product(props) {
                 }
                 
                 </button>
+                <button className=' border-0' onClick={()=>{}}>View</button>
             </div>
         </div>
     </div>

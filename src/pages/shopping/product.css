@@ -49,11 +49,9 @@
     height: 280px;
     /* height: 60%; */
 }
-button{
-    width: 90%;
 
-    color: rgb(30, 30, 147);
-    background-color: white;
+button{
+    
     cursor: pointer;
     border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -61,6 +59,11 @@ button{
     -ms-border-radius: 3px;
     -o-border-radius: 3px;
     position: relative;
+}
+
+.info button:nth-child(1){
+    
+    background-color: red;
 }
 .counter{
     background-color: rgb(30, 30, 147);

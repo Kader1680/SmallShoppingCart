@@ -1,0 +1,18 @@
+$sm: 767px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1300px;
+$full: 1400px;
+
+@mixin responsive($query) {
+    @media ( min-width:  $query ) {
+        @content;
+    }
+}
+
+@mixin responsive-mobile($query) {
+    @media ( max-width:  $query ) {
+        @content;
+    }
+}
