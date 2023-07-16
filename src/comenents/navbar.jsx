@@ -17,6 +17,8 @@ export default function Navbar() {
   return (
     <nav className=' d-flex justify-content-evenly align-items-center p-4 '>
             
+            
+
             <h4>
               <Link class="logo text-decoration-none" to="/SmallShoppingCart">shopping cart</Link>
             </h4>

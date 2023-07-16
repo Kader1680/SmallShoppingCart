@@ -1,26 +1,19 @@
 @media(max-width:767px){
-    .feild{
-        width: 18rem;
-        
-    }
+    
     .counter{
         top: -22rem;
         left: 13rem;
     }
 }
 @media(min-width:768px){
-    .feild{
-        width: 17rem;
-    }
+    
     .counter{
         top: -22rem;
         left: 12rem;
     }
 }
 @media(min-width:991px){
-    .feild{
-        width: 16rem;
-    }
+    
     .counter{
         top: -22rem;
         left: 11rem;
@@ -36,34 +29,39 @@
 
 
 .feild{
-    /* width: 14rem; */
+    width: 12rem;
     
-    background-color: rgb(30, 30, 147);
     color: white;
-    border: 2px solid rgb(30, 30, 147);
     padding: 25px 5px;
 }
 .feild img{
-    width: 90%;
-    
-    height: 280px;
+    width: 100%;
+    height: 220px;
     /* height: 60%; */
 }
 
 button{
-    
+    color: white;
+    background-color: #004c3f;
+    border: 0;
     cursor: pointer;
-    border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -ms-border-radius: 3px;
-    -o-border-radius: 3px;
+    border-radius: 50px;
+    width: 50%;
+    padding: 4px;
     position: relative;
+    margin-left: 1rem;
+}
+button:hover{
+    color: #004c3f;
+    background-color: white;
+    border: 2px solid #004c3f;
+  
 }
 
-.info button:nth-child(1){
+.info {
     
-    background-color: red;
+    
+        background-color: #F5F6F6;
 }
 .counter{
     background-color: rgb(30, 30, 147);
@@ -76,3 +74,7 @@ button{
     border-radius: 9px;
 
 }
+/* 
+.info div{
+    margin-left: -47px;
+} */

@@ -34,26 +34,20 @@ import azt from "../src/img/produkt_by_jack_&_jones_blue_denim_jacket_with_flap_
 
 
 export const PRODUCTS = [
-    // {
-    //     id:1,
-    //     title: "title 1",
-    //     price: 100,
-    //     img: a,
-
-    // },
-
     {
         id:4,
-        title: "title 4",
+        title: "Le lorem ipsum",
         price: 100,
         img: casskete,
+        categorie: 'children'
 
     },
     {
         id:5,
-        title: "title 5",
+        title: "Le lorem ipsum",
         price: 100,
         img: cassketetwo,
+        categorie: 'men'
 
     },
     {
@@ -61,6 +55,7 @@ export const PRODUCTS = [
         title: "title 6",
         price: 100,
         img: f,
+        categorie: 'men'
 
     },
     {
@@ -68,6 +63,7 @@ export const PRODUCTS = [
         title: "title 7",
         price: 100,
         img: e,
+        categorie: 'children'
 
     },
     {
@@ -93,203 +89,205 @@ export const PRODUCTS = [
     },
     {
         id:11,
-        title: "title 11",
+        title: "Le lorem ipsum",
         price: 100,
         img: ceinturetwo,
 
     },
     {
         id:11,
-        title: "title 11",
+        title: "Le lorem ipsum",
         price: 100,
         img: i,
 
     },
     {
         id:11,
-        title: "title 11",
+        title: "Le lorem ipsum",
         price: 100,
         img: j,
 
     },
     {
         id:11,
-        title: "title 11",
+        title: "Le lorem ipsum",
         price: 100,
         img: k,
 
     },
     {
         id:11,
-        title: "title 11",
+        title: "Le lorem ipsum",
         price: 100,
         img: l,
 
     },
     {
         id:11,
-        title: "title 11",
+        title: "Le lorem ipsum",
         price: 100,
         img: l,
 
     },
     {
         id:11,
-        title: "title 11",
+        title: "Le lorem ipsum",
         price: 100,
         img: m,
 
     },
     {
         id:11,
-        title: "title 11",
+        title: "Le lorem ipsum",
         price: 100,
         img: n,
 
     },
     {
         id:11,
-        title: "title 11",
+        title: "Le lorem ipsum",
         price: 100,
         img: o,
 
     },
     {
         id:11,
-        title: "title 11",
+        title: "Le lorem ipsum",
         price: 100,
         img: p,
 
     },
     {
         id:11,
-        title: "title 11",
+        title: "Le lorem ipsum",
         price: 100,
         img: k,
+        categorie: 'black'
 
     },
     {
         id:11,
-        title: "title 11",
+        title: "Le lorem ipsum",
+        price: 100,
+        img: m,
+        categorie: 'white'
+
+    },
+    {
+        id:11,
+        title: "Le lorem ipsum",
         price: 100,
         img: m,
 
     },
     {
         id:11,
-        title: "title 11",
-        price: 100,
-        img: m,
-
-    },
-    {
-        id:11,
-        title: "title 11",
+        title: "Le lorem ipsum",
         price: 100,
         img: n,
 
     },
     {
         id:11,
-        title: "title 11",
+        title: "Le lorem ipsum",
         price: 100,
         img: o,
 
     },
     {
         id:11,
-        title: "title 11",
+        title: "Le lorem ipsum",
         price: 100,
         img: p,
 
     },
     {
         id:11,
-        title: "title 11",
+        title: "Le lorem ipsum",
         price: 100,
         img: q,
 
     },
     {
         id:11,
-        title: "title 11",
+        title: "Le lorem ipsum",
         price: 100,
         img: r,
 
     },
     {
         id:11,
-        title: "title 11",
+        title: "Le lorem ipsum",
         price: 100,
         img: s,
 
     },
     {
         id:11,
-        title: "title 11",
+        title: "Le lorem ipsum",
         price: 100,
         img: t,
 
     },
     {
         id:11,
-        title: "title 11",
+        title: "Le lorem ipsum",
         price: 100,
         img: u,
 
     },
     {
         id:11,
-        title: "title 11",
+        title: "Le lorem ipsum",
         price: 100,
         img: v,
 
     },
     {
         id:11,
-        title: "title 11",
+        title: "Le lorem ipsum",
         price: 100,
         img: w,
 
     },
     {
         id:11,
-        title: "title 11",
+        title: "Le lorem ipsum",
         price: 100,
         img: x,
 
     },
     {
         id:11,
-        title: "title 11",
+        title: "Le lorem ipsum",
         price: 100,
         img: y,
 
     },
     {
         id:11,
-        title: "title 11",
+        title: "Le lorem ipsum",
         price: 100,
         img: z,
 
     },
     {
         id:11,
-        title: "title 11",
+        title: "Le lorem ipsum",
         price: 100,
         img: aze,
 
     },
     {
         id:11,
-        title: "title 11",
+        title: "Le lorem ipsum",
         price: 100,
         img: azr,
 
     },
     {
         id:11,
-        title: "title 11",
+        title: "Le lorem ipsum",
         price: 100,
         img: azt,
 

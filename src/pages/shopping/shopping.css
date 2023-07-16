@@ -12,17 +12,37 @@
 }
 @media(min-width:768px){
     .products{
-        display: grid;
-        grid-template-columns: 50% 50%;
+        /* display: grid;
+        grid-template-columns: 50% 50%; */
         margin-top: 1rem;
-
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: auto;
     }
 }
 @media(min-width:991px){
     .products{
-        display: grid;
-        grid-template-columns: 36% 36% 28%;
+        /* display: grid;
+        grid-template-columns: 36% 36% 28%; */
         margin-top: 1rem;
     }
 }
 @media(min-width:1199px){}
+
+.categorie{
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}    
+
+.categorie p{
+    background-color: #e4e4e4;
+    padding: 1px 10px;
+    color: black;
+    border-radius: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+    text-align: center;
+}   

@@ -7,6 +7,7 @@ nav{
         
             
             .leftSide{
+                
                 display: none;
                 position: fixed;
                 background-color: $box-color;
@@ -17,8 +18,8 @@ nav{
                 ul{
                     list-style: none;
                     position: absolute;
-                    width: 100%;
-                    margin: auto;
+                    width: 90%;
+                    top: 7rem;
                     list-style: none;
                     li{
                         color: $bg-color;
@@ -30,6 +31,7 @@ nav{
                     width: 73%;
                     top: 77%;
                     margin: auto;
+                    margin-top: 3rem;
                 }
                 
             }
@@ -48,8 +50,9 @@ nav{
                 position: fixed;
                 background-color: $box-color;
                 top: 82px;
-                width: 100%;
-                height: 100%;
+                right: 0;
+                width: 58%;
+                height: 39%;
                 ul{
                     
                     list-style: none;
@@ -69,6 +72,10 @@ nav{
     @include responsive($lg) {
    
             .leftSide{
+                position: unset;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
                 ul{
                     list-style: none;
                     li{
@@ -103,6 +110,7 @@ nav{
 
     }
     .leftSide{
+
         ul{
             li{  
                 color: $bg-color;
