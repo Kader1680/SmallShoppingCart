@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SmallShoppingCart/static/css/main.4099ce55.css",
-    "main.js": "/SmallShoppingCart/static/js/main.2c7a1eda.js",
+    "main.css": "/SmallShoppingCart/static/css/main.7d3dd3df.css",
+    "main.js": "/SmallShoppingCart/static/js/main.07240ddb.js",
     "static/js/787.c337d5b1.chunk.js": "/SmallShoppingCart/static/js/787.c337d5b1.chunk.js",
     "static/media/13706225_2012.i211.010..man's suit realistic.jpg": "/SmallShoppingCart/static/media/13706225_2012.i211.010..man's suit realistic.62669d43885770039225.jpg",
     "static/media/pair-trainers.jpg": "/SmallShoppingCart/static/media/pair-trainers.5de6ee710a91fd23b897.jpg",
@@ -32,13 +32,14 @@
     "static/media/dennislingo_premium_attire_black_denim_jacket_with_flap_pockets_.jpg": "/SmallShoppingCart/static/media/dennislingo_premium_attire_black_denim_jacket_with_flap_pockets_.09baa4dff3a9b35d7de7.jpg",
     "static/media/dennislingo_premium_attire_grey_flat-front_tapered_fit_cargo_pants.jpg": "/SmallShoppingCart/static/media/dennislingo_premium_attire_grey_flat-front_tapered_fit_cargo_pants.75478d9820eb84323ce0.jpg",
     "static/media/club_chino_navy_blue_tapered_fit_flat-front_trousers.jpg": "/SmallShoppingCart/static/media/club_chino_navy_blue_tapered_fit_flat-front_trousers.cdaeaf7dfbb4722a900b.jpg",
+    "static/media/logo.png": "/SmallShoppingCart/static/media/logo.c63260751f29e92da11f.png",
     "index.html": "/SmallShoppingCart/index.html",
-    "main.4099ce55.css.map": "/SmallShoppingCart/static/css/main.4099ce55.css.map",
-    "main.2c7a1eda.js.map": "/SmallShoppingCart/static/js/main.2c7a1eda.js.map",
+    "main.7d3dd3df.css.map": "/SmallShoppingCart/static/css/main.7d3dd3df.css.map",
+    "main.07240ddb.js.map": "/SmallShoppingCart/static/js/main.07240ddb.js.map",
     "787.c337d5b1.chunk.js.map": "/SmallShoppingCart/static/js/787.c337d5b1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4099ce55.css",
-    "static/js/main.2c7a1eda.js"
+    "static/css/main.7d3dd3df.css",
+    "static/js/main.07240ddb.js"
   ]
 }
