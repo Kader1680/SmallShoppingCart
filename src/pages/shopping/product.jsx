@@ -16,12 +16,19 @@ export default function Product(props) {
             <img src ={img}  />
             <div className='info'>
                 <div class=" d-flex justify-content-around">
-                  <p>{title}</p>
-                  <p>{price}$</p>
+                  <p className=' fw-bolder'>{title}</p>
+                  <p className=' fw-bolder'>{price}$</p>
                   
                 </div>
-
-                <button  onClick={()=>{AddCart(id)}}>add to cart
+                <p className='ms-2 myp'>this is product</p>
+                <div class='star ms-2'>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <button className='ms-2'  onClick={()=>{AddCart(id)}}>add to cart
+                
                 {/* {
                   // if cartitem > 0 then 
                   cartItemAmount > 0 && <span className='p-2 counter'> {cartItemAmount} </span>

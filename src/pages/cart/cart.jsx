@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {PRODUCTS} from "../../product" 
 import {ShopContext} from "../../context/ShopContext"
 import CartItem from "./cartItem"
-import "./cart.css"
+import "./cart.scss"
 export default function Cart() {
 
   const {cartItems} = useContext(ShopContext)
@@ -11,7 +11,7 @@ export default function Cart() {
   return (
     <div>
       <h1>there is your cart</h1>
-      <div class="cartitems">
+      <div class="cartitems container">
           {
             PRODUCTS.map((item)=>
             {

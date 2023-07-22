@@ -1,0 +1,52 @@
+@import '../../scssstyle/_mixins';
+@import '../../scssstyle/_variables';
+
+.card img{
+    
+    height: 100px;
+}
+@include responsive-mobile($sm) {
+    .card{
+    
+        max-width: 100%;
+        width: 50%;
+    
+        
+        img{
+            max-width: 100px;
+        }
+    }
+
+}
+@include responsive($md) {
+
+    .card{
+    
+        max-width: 100%;
+        width: 25%;
+    
+        
+        img{
+            max-width: 100px;
+        }
+    }
+}
+// @media(max-width:767px){
+//     .card{
+    
+//         max-width: 100%;
+//         width: 50%;
+    
+        
+//         img{
+//             max-width: 100px;
+//         }
+//     }
+// }
+@media(min-width:768px){
+    
+}
+@media(min-width:991px){
+    
+}
+@media(min-width:1199px){}

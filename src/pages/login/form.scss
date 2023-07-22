@@ -1,0 +1,135 @@
+$color_1: #07074D;
+$color_2: #536387;
+$color_3: white;
+$background-color_1: #FFFFFF;
+$background-color_2: #004c3f;
+$border-color_1: #004c3f;
+
+.formbold-main-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 48px;
+    
+    margin-top: 5rem;
+
+}
+.formbold-form-wrapper {
+	margin: 0 auto;
+	max-width: 550px;
+	width: 100%;
+	background: white;
+}
+.formbold-input-flex {
+	display: flex;
+	gap: 20px;
+	margin-bottom: 15px;
+	>div {
+		width: 50%;
+	}
+}
+.formbold-input-radio-wrapper {
+	margin-bottom: 28px;
+}
+.formbold-radio-flex {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+.formbold-radio-label {
+	font-size: 14px;
+	line-height: 24px;
+	color: $color_1;
+	position: relative;
+	padding-left: 25px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	.formbold-input-radio {
+		&:checked {
+			~ {
+				.formbold-radio-checkmark {
+					background-color: $background-color_2;
+					&:after {
+						display: block;
+					}
+				}
+			}
+		}
+	}
+	.formbold-radio-checkmark {
+		&:after {
+			top: 50%;
+			left: 50%;
+			width: 10px;
+			height: 10px;
+			border-radius: 50%;
+			background: #FFFFFF;
+			transform: translate(-50%, -50%);
+		}
+	}
+}
+.formbold-input-radio {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+}
+.formbold-radio-checkmark {
+	position: absolute;
+	top: -1px;
+	left: 0;
+	height: 18px;
+	width: 18px;
+	background-color: $background-color_1;
+	border: 1px solid #DDE3EC;
+	border-radius: 50%;
+	&:after {
+		content: "";
+		position: absolute;
+		display: none;
+	}
+}
+.formbold-form-input {
+	width: 100%;
+	padding: 13px 22px;
+	border-radius: 5px;
+	border: 1px solid #DDE3EC;
+	background: #FFFFFF;
+	font-weight: 500;
+	font-size: 16px;
+	color: $color_1;
+	outline: none;
+	resize: none;
+	&::placeholder {
+		color: $color_2;
+	}
+	&:focus {
+		border-color: $border-color_1;
+		box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+	}
+}
+.formbold-form-label {
+	color: $color_1;
+	font-size: 14px;
+	line-height: 24px;
+	display: block;
+	margin-bottom: 10px;
+}
+.formbold-btn {
+	text-align: center;
+	width: 100%;
+	font-size: 16px;
+	border-radius: 5px;
+	padding: 14px 25px;
+	border: none;
+	font-weight: 500;
+	background-color: $background-color_2;
+	color: $color_3;
+	cursor: pointer;
+	margin-top: 25px;
+	&:hover {
+		box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+	}
+}

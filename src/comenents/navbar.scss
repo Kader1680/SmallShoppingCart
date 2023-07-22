@@ -4,8 +4,8 @@
 
 nav{
     @include responsive-mobile($sm) {
-        
-            
+
+            justify-content: space-between;
             .leftSide{
                 
                 display: none;
@@ -39,20 +39,20 @@ nav{
                 display: block;
             }
             .leftSide.blk{
-                display: block;
-                
-            }
+                display: flex; 
+            } 
             
         
     }
     @include responsive($md) {
+            justify-content: space-between;
             .leftSide{
+                display: none;
                 position: fixed;
                 background-color: $box-color;
                 top: 82px;
                 right: 0;
-                width: 58%;
-                height: 39%;
+                width: 100%;
                 ul{
                     
                     list-style: none;
@@ -61,14 +61,24 @@ nav{
             
                     }
                 }
+              
                 
             }
+            .leftSide.blk{
+                // display: flex; 
+
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+            } 
             .fa-bars{
                 display: block;
             }
             
         
     }
+    
     @include responsive($lg) {
    
             .leftSide{
@@ -76,7 +86,10 @@ nav{
                 display: flex;
                 flex-direction: row;
                 align-items: center;
+                width: 58%;
+                justify-content: space-between;
                 ul{
+                    margin-top: 11px;
                     list-style: none;
                     li{
                         display: inline-block;
@@ -84,6 +97,11 @@ nav{
                         color: $bg-color;
                     }
                 }
+                .search{    
+
+                    padding-right: 11px;
+                }
+                
                 
             }
             .fa-bars{
@@ -92,6 +110,12 @@ nav{
 
     }
     @include responsive($xl) {
+
+        .leftSide{
+            
+            justify-content: space-evenly;
+        
+        }
     }
     @include responsive($xxl) {
     }
@@ -112,9 +136,10 @@ nav{
     .leftSide{
 
         ul{
+            font-weight: 500;
             li{  
                 color: $bg-color;
-    
+                cursor: pointer;
             }
         }
         .search{
@@ -122,17 +147,18 @@ nav{
                 outline: none;
                 border: none;
             }
-            padding: 8px 0px;
+            // padding: 8px 0px;
             background-color: white;
         }
 
-        
+          
         
     }
+     
     .fa-bars{
         color: $bg-color;
     }
-    .shop{
+    .shop, .fa-user{
         color: $bg-color;
     }
 }

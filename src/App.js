@@ -9,15 +9,18 @@ import FormExample from "./comenents/login"
 
 import ShopContextProvider from "./context/ShopContext"
 import SliderImg from "./comenents/SliderImg";
+import Login from "./pages/login/form";
 export  function App() {
   return (
     <div className="App">
       <ShopContextProvider>
           <Router>
               <Navbar />
+              
               {/* <SliderImg /> */}
               <Routes>
                   <Route path="/SmallShoppingCart" element={<Shopping/>} />
+                  <Route path="/SmallShoppingCart/login" element={<Login />} />
                   
                   <Route path="/SmallShoppingCart/cart" element={<Cart/>} />
               </Routes>

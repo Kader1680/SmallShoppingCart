@@ -20,8 +20,8 @@ export default function Shopping() {
               <p onClick={()=>setdata(PRODUCTS) }>all</p>
               <p onClick={()=>Filter('men') }>Man</p>
               <p onClick={()=>Filter('children') }>Children </p>
-              <p onClick={()=>Filter('black') }>Black</p>
-              <p onClick={()=>Filter('white') }>White</p>
+              <p onClick={()=>Filter('black') }>Shoes</p>
+              <p onClick={()=>Filter('white') }>tie</p>
               <p onClick={()=>Filter('classic') }>Classic</p>
             </div>
         <div className='products ' >

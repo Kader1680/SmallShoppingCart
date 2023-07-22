@@ -1,12 +1,16 @@
 @media(max-width:767px){
-    
+    .feild{
+        width: 19rem;
+    }
     .counter{
         top: -22rem;
         left: 13rem;
     }
 }
 @media(min-width:768px){
-    
+    .feild{
+        width: 12rem;
+    }
     .counter{
         top: -22rem;
         left: 12rem;
@@ -29,7 +33,7 @@
 
 
 .feild{
-    width: 12rem;
+    
     
     color: white;
     padding: 25px 5px;
@@ -44,12 +48,10 @@ button{
     color: white;
     background-color: #004c3f;
     border: 0;
-    cursor: pointer;
     border-radius: 50px;
-    width: 50%;
-    padding: 4px;
     position: relative;
-    margin-left: 1rem;
+    margin-top: 10px;
+    font-size: 15px;
 }
 button:hover{
     color: #004c3f;
@@ -57,17 +59,25 @@ button:hover{
     border: 2px solid #004c3f;
   
 }
-
+.fa-star, .fa-star-half-stroke{
+    color: #4daf3b;
+}
+.info .myp{
+    color: #767574;
+    margin-top: -10px;
+}
+.star{
+    margin-top: -10px;
+}
 .info {
     
-    
+        padding: 10px 0px;
         background-color: #F5F6F6;
 }
 .counter{
     background-color: rgb(30, 30, 147);
     color: white;
     position: absolute;
-    
     font-size: 20px;
     font-weight: 700;
     width: 45px;
