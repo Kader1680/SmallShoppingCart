@@ -53,43 +53,7 @@ export default function Login() {
           </div>
         </div>
 
-        <div class="formbold-input-radio-wrapper">
-            <label for="jobtitle" class="formbold-form-label"> What are you looking for? </label>
-
-            <div class="formbold-radio-flex">
-              <div class="formbold-radio-group">
-                <label class="formbold-radio-label">
-                  <input class="formbold-input-radio" type="radio" name="jobtitle" id="jobtitle" />
-                  Web Design
-                  <span class="formbold-radio-checkmark"></span>
-                </label>
-              </div>
-
-              <div class="formbold-radio-group">
-                <label class="formbold-radio-label">
-                  <input class="formbold-input-radio" type="radio" name="jobtitle" id="jobtitle" />
-                  Graphics Design
-                  <span class="formbold-radio-checkmark"></span>
-                </label>
-              </div>
-
-              <div class="formbold-radio-group">
-                <label class="formbold-radio-label">
-                  <input class="formbold-input-radio" type="radio" name="jobtitle" id="jobtitle" />
-                  Logo Design
-                  <span class="formbold-radio-checkmark"></span>
-                </label>
-              </div>
-
-              <div class="formbold-radio-group">
-                <label class="formbold-radio-label">
-                  <input class="formbold-input-radio" type="radio" name="jobtitle" id="jobtitle" />
-                  Others
-                  <span class="formbold-radio-checkmark"></span>
-                </label>
-              </div>
-            </div>
-        </div>
+        
 
         <div>
             <label for="message" class="formbold-form-label"> Message </label>
