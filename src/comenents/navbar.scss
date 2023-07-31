@@ -5,7 +5,7 @@
 nav{
     @include responsive-mobile($sm) {
 
-            justify-content: space-between;
+            justify-content: space-around;
             .leftSide{
                 
                 display: none;
@@ -81,7 +81,7 @@ nav{
     }
     
     @include responsive($lg) {
-   
+            justify-content: center;
             .leftSide{
                 position: unset;
                 display: flex;

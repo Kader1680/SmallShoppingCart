@@ -2,6 +2,7 @@ import { React } from "react"
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 import Navbar from "./comenents/navbar"
 import Cart from "./pages/cart/cart";
+import Test from "./comenents/testimonial/test";
 import Shopping from "./pages/shopping/shopping";
 import "./App.css"
 import FormExample from "./comenents/login"
@@ -16,16 +17,19 @@ export  function App() {
       <ShopContextProvider>
           <Router>
               <Navbar />
-              
               {/* <SliderImg /> */}
               <Routes>
                   <Route path="/SmallShoppingCart" element={<Shopping/>} />
                   <Route path="/SmallShoppingCart/login" element={<Login />} />
                   
                   <Route path="/SmallShoppingCart/cart" element={<Cart/>} />
+                  
               </Routes>
+              <Test/>
+
           </Router>
       </ShopContextProvider>
+
     </div>
   );
 }

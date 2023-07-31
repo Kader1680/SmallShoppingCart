@@ -1,6 +1,8 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
+// import * as Scroll from 'react-scroll';
+// import { Link } from 'react-scroll';
 // import "./navbar.css"
 import "./navbar.scss"
 import { useState } from 'react';
@@ -24,8 +26,8 @@ export default function Navbar() {
             <div class={`leftSide ${(Nav ? "blk" : '')}`}>
               <ul>
                 <li>Categorie </li>
-                <li>Deals</li>
-                <li>What's News</li>
+               
+                <li>Testimonial</li>
                 <li>Delivery</li>
               </ul>
               <div className='search'>
