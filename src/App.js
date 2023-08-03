@@ -11,22 +11,27 @@ import FormExample from "./comenents/login"
 import ShopContextProvider from "./context/ShopContext"
 import SliderImg from "./comenents/SliderImg";
 import Login from "./pages/login/form";
+import Home from "./pages/home/home";
+import Footer from "./comenents/footer/footer";
 export  function App() {
   return (
     <div className="App">
       <ShopContextProvider>
           <Router>
               <Navbar />
+              {/* <Home /> */}
               {/* <SliderImg /> */}
               <Routes>
-                  <Route path="/SmallShoppingCart" element={<Shopping/>} />
+                  <Route path="/SmallShoppingCart" element={<Home/>} />
+
+                  <Route path="/SmallShoppingCart/test" element={<Test />} />
+                  <Route path="/SmallShoppingCart/shop" element={<Shopping/>} />
                   <Route path="/SmallShoppingCart/login" element={<Login />} />
                   
                   <Route path="/SmallShoppingCart/cart" element={<Cart/>} />
                   
               </Routes>
-              <Test/>
-
+              <Footer/>
           </Router>
       </ShopContextProvider>
 

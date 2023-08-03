@@ -8,6 +8,7 @@ export default function Test() {
          Aos.init({duration: 3000 });
    }, []);
 
+  
   return (
    <div data-aos='fade-up' className='wrape container' > 
       <figure class="snip1390">

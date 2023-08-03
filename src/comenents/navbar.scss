@@ -50,7 +50,7 @@ nav{
             .leftSide{
                 display: none;
                 position: fixed;
-                background-color: $box-color;
+                // background-color: $box-color;
                 top: 82px;
                 right: 0;
                 width: 100%;
@@ -130,7 +130,8 @@ nav{
     margin: auto;
     top: 0;
     z-index: 2;
-    background-color: $box-color;
+    background-color: white;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, .15);
     .logo{
         color: $bg-color;
 
@@ -140,11 +141,15 @@ nav{
         ul{
             font-weight: 500;
             li{  
-                color: $bg-color;
                 cursor: pointer;
+                a{
+                    color: #0a0d35;
+
+                }
             }
         }
         .search{
+            border: 1px solid #0a0d35;
             input{
                 outline: none;
                 border: none;
@@ -158,9 +163,18 @@ nav{
     }
      
     .fa-bars{
-        color: $bg-color;
+        color: #0a0d35;
     }
     .shop, .fa-user{
-        color: $bg-color;
+        color: #0a0d35;
     }
+}
+
+.content{
+    // background-color: #b6b6b6;
+    display: flex;
+    margin: auto;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
 }

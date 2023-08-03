@@ -44,23 +44,26 @@
     /* height: 60%; */
 }
 
-button{
+.info button{
     color: white;
-    background-color: #004c3f;
+    background-color: #fcd80a;
     border: 0;
     border-radius: 50px;
     position: relative;
-    margin-top: 10px;
     font-size: 15px;
+    width: 90%;
+    padding: 8px;
+    margin: 6px auto;
+    display: block;
 }
-button:hover{
-    color: #004c3f;
+.info button:hover{
+    color: #fcd80a;
     background-color: white;
-    border: 2px solid #004c3f;
+    border: 2px solid #fcd80a;
   
 }
 .fa-star, .fa-star-half-stroke{
-    color: #4daf3b;
+    color: #fff09a;
 }
 .info .myp{
     color: #767574;
@@ -72,10 +75,10 @@ button:hover{
 .info {
     
         padding: 10px 0px;
-        background-color: #F5F6F6;
+        background-color: white;
 }
 .counter{
-    background-color: rgb(30, 30, 147);
+    background-color: #fcd80a;
     color: white;
     position: absolute;
     font-size: 20px;

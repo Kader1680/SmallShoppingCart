@@ -2,8 +2,8 @@ $color_1: #07074D;
 $color_2: #536387;
 $color_3: white;
 $background-color_1: #FFFFFF;
-$background-color_2: #004c3f;
-$border-color_1: #004c3f;
+$background-color_2: #fcd80a;
+$border-color_1: #fcd80a;
 
 .formbold-main-wrapper {
 	display: flex;
@@ -132,9 +132,4 @@ $border-color_1: #004c3f;
 	&:hover {
 		box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
 	}
-}
-.sqr{
-	margin: 31rem auto;
-	height: 5rem;
-	width: 28rem;
 }

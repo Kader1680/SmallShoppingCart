@@ -73,17 +73,13 @@ export default function Login() {
         <button class="formbold-btn">
             Send Message
         </button>
-        <button>
-        <Link to="" spy={true} smooth={true} duration={500}>click here</Link>
-        </button>
+        
 
     </form>
   </div>
   </div>
-    <div className='bg-danger sqr'>lllllllllllllll</div>
-      
-   
-    </div>
+  </div>
+    
   )
 }
 

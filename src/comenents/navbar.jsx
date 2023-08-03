@@ -1,9 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
-// import * as Scroll from 'react-scroll';
-// import { Link } from 'react-scroll';
-// import "./navbar.css"
+
 import "./navbar.scss"
 import { useState } from 'react';
 import logo from "../img/logo.png"
@@ -16,8 +14,9 @@ export default function Navbar() {
         setNav(!Nav)
   }
   return (
-    <nav className=' d-flex align-items-center p-4 '>
+    <nav className=' p-4 '>
           
+            <div className='container content'>
             <h4>
                 <Link class="logo text-decoration-none" to="/SmallShoppingCart">
                     Shopping
@@ -25,10 +24,16 @@ export default function Navbar() {
             </h4>
             <div class={`leftSide ${(Nav ? "blk" : '')}`}>
               <ul>
-                <li>Categorie </li>
-               
-                <li>Testimonial</li>
-                <li>Delivery</li>
+                <li>
+                  <Link class="text-decoration-none" to="/SmallShoppingCart">Home</Link>
+                </li>
+                <li>
+                  <Link class="text-decoration-none" to="/SmallShoppingCart/shop">Product</Link>
+                </li>
+                <li>
+                   <Link class="text-decoration-none" to="/SmallShoppingCart/test">TestiPmonial</Link>
+                </li>
+                
               </ul>
               <div className='search'>
                 <input className=' border-none' />
@@ -40,6 +45,7 @@ export default function Navbar() {
             <Link to="/SmallShoppingCart/login"><i class="fa-solid fa-user fs-4"></i></Link>
 
             <i onClick={Dnav} class= "fs-2 fa-solid fa-bars"></i>
+            </div>
 
     </nav>
   )

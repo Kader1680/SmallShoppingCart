@@ -1,17 +1,30 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+
+@media(min-width:767px){
+  .wrape{
+    margin-top: 8rem;
+  }
+}
+
+@media(min-width:768px){
+  .wrape{
+    margin-top: 8rem;
+    padding-top: 8rem;
+  }
+}
 figure.snip1390 {
   font-family: 'Roboto', Arial, sans-serif;
   position: relative;
   overflow: hidden;
   margin: 10px;
-  min-width: 230px;
-  max-width: 315px;
-  width: 100%;
+  /* min-width: 230px;
+  max-width: 315px; */
+  /* width: 100%; */
   color: #000000;
   text-align: center;
   font-size: 16px;
-  background-color: #004c3f;
+  background-color: #0a0d35;
   padding: 30px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;

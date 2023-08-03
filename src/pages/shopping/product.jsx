@@ -1,14 +1,13 @@
-import React, {useContext} from 'react'
+import React, {useContext, useState} from 'react'
 import './product.css'
 import {ShopContext} from "../../context/ShopContext"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Cart from '../cart/cart';
 
 export default function Product(props) {
     const {id, title, price, img} = props.data
     const { cartItems, AddCart, RemoveCart } = useContext(ShopContext);
     const cartItemAmount = cartItems[id]
-   
-    
     
   return (
     <div class="products">
@@ -27,7 +26,10 @@ export default function Product(props) {
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star-half-stroke"></i>
                 </div>
-                <button className='ms-2'  onClick={()=>{AddCart(id)}}>add to cart
+                <button className=' '  onClick={()=>{
+                  
+                  AddCart(id)
+                }}>add to cart
                 
                 {/* {
                   // if cartitem > 0 then 
@@ -35,6 +37,7 @@ export default function Product(props) {
                 } */}
                 
                 </button>
+                
             </div>
         </div>
     </div>

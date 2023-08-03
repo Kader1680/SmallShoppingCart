@@ -4,13 +4,18 @@ import {PRODUCTS} from "../../product"
 import {ShopContext} from "../../context/ShopContext"
 import CartItem from "./cartItem"
 import "./cart.scss"
+import noshopinh from '../../img/cart.668e6453-svg.png'
 export default function Cart() {
 
   const {cartItems} = useContext(ShopContext)
 
   return (
-    <div>
-      <h1>there is your cart</h1>
+    <div className=''>
+      <div className='contianer no-cart'>
+          <img src= {noshopinh} />
+          <h4>Your cart is empty!</h4>
+          <p>Browse our categories and discover our best deals!</p>
+      </div>
       <div class="cartitems container">
           {
             PRODUCTS.map((item)=>
@@ -22,6 +27,7 @@ export default function Cart() {
             })
           }
       </div>
+
     </div>
   )
 }
