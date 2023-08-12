@@ -1,16 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
 
-@media(min-width:767px){
+@media(max-width:767px){
   .wrape{
-    margin-top: 8rem;
+    /* margin-top: 8rem; */
   }
 }
 
 @media(min-width:768px){
   .wrape{
-    margin-top: 8rem;
-    padding-top: 8rem;
+    /* margin-top: 12rem; */
+    /* padding-top: 8rem; */
   }
 }
 figure.snip1390 {

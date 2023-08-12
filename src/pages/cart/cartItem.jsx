@@ -1,34 +1,32 @@
 import React from 'react'
-import './cartitem.scss'
+import './cartitem.css'
 export default function CartItem(props) {
     const {id, title, img, price} = props.data
     return (
-      <div className='card '>
-            {/* <img src ={img}  />
-            <div className='info'>
-                <p>{title}</p>
-                <p>{price}$</p>
-            </div> */}
-            <img src ={img}  />
-            <div className='info'>
-
-                <div class=" d-flex justify-content-around">
-                  <p className=' fw-bolder'>{title}</p>
-                  <p className=' fw-bolder'>{price}$</p>
-                  
+      <div class="MyCard">
+            <div class="row">
+                <div class="col-md-8 MyCart">
+                       
+                    <div class="row border-top border-bottom">
+                        <div class="row main align-items-center">
+                            <div class="col-2"><img class="img-fluid" src={img} /></div>
+                            <div class="col">
+                                <div class="row text-muted">Shirt</div>
+                                <div class="row">Cotton T-shirt</div>
+                            </div>
+                            <div class="col">
+                                <a  href="#">-</a><a href="#" class="border">1</a><a href="#">+</a>
+                            </div>
+                            <div class="col">&euro; {price} <span class="close">&#10005;</span></div>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
                 </div>
-
-                <p className='ms-2 myp'>this is product</p>
-
-                <div class='star ms-2'>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star-half-stroke"></i>
-                </div>
-                
             </div>
-              
-      </div>
+            
+        </div>
     )
 }

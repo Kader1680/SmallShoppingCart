@@ -3,6 +3,7 @@ import './test.css'
 import Aos from 'aos'
 // import 'aos/dist/aos'
 import 'aos/dist/aos.css'
+import Head from '../Head';
 export default function Test() {
    useEffect(() => {
          Aos.init({duration: 3000 });
@@ -10,6 +11,8 @@ export default function Test() {
 
   
   return (
+    <div style={{ paddingTop:"5rem" }}>
+     <Head  />
    <div data-aos='fade-up' className='wrape container' > 
       <figure class="snip1390">
    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample3.jpg" alt="profile-sample3" class="profile" />
@@ -34,5 +37,6 @@ export default function Test() {
    </figcaption>
  </figure>
    </div>
+    </div>
   )
 }

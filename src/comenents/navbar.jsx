@@ -25,13 +25,13 @@ export default function Navbar() {
             <div class={`leftSide ${(Nav ? "blk" : '')}`}>
               <ul>
                 <li>
-                  <Link class="text-decoration-none" to="/SmallShoppingCart">Home</Link>
+                  <Link target="_parent" class="text-decoration-none" to="/SmallShoppingCart">Home</Link>
                 </li>
                 <li>
-                  <Link class="text-decoration-none" to="/SmallShoppingCart/shop">Product</Link>
+                  <Link target="_parent" class="text-decoration-none" to="/SmallShoppingCart/shop">Product</Link>
                 </li>
                 <li>
-                   <Link class="text-decoration-none" to="/SmallShoppingCart/test">TestiPmonial</Link>
+                   <Link target="_parent" class="text-decoration-none" to="/SmallShoppingCart/test">TestiPmonial</Link>
                 </li>
                 
               </ul>

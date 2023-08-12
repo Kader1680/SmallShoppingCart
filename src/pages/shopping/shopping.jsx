@@ -19,7 +19,7 @@ export default function Shopping() {
   
   return (
     <div>
-        <div  className="container categorie d-flex">
+        <div  className=" categorie d-flex">
               <p onClick={()=>setdata(PRODUCTS) }>all</p>
               <p onClick={()=>Filter('men')}>Man</p>
               <p onClick={()=>Filter('Cap') }>Cap </p>
