@@ -17,7 +17,7 @@ export  function App() {
     <div className="App">
       <ShopContextProvider>
           <Router>
-              <Navbar />
+              <Navbar  />
               {/* <Home /> */}
               {/* <SliderImg /> */}
               <Routes>

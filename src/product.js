@@ -52,7 +52,7 @@ export const PRODUCTS = [
     },
     {
         id:6,
-        title: "title 6",
+        title: "Le lorem ipsum",
         price: 100,
         img: f,
         categorie: 'tie'
@@ -60,7 +60,7 @@ export const PRODUCTS = [
     },
     {
         id:7,
-        title: "title 7",
+        title: "Le lorem ipsum",
         price: 100,
         img: e,
         categorie: 'children'
@@ -68,7 +68,7 @@ export const PRODUCTS = [
     },
     {
         id:8,
-        title: "title 8",
+        title: "Le lorem ipsum",
         price: 100,
         img: g,
         categorie: 'shoes'
@@ -77,7 +77,7 @@ export const PRODUCTS = [
     },
     {
         id:9,
-        title: "title 9",
+        title: "Le lorem ipsum",
         price: 100,
         img: h,
         categorie: 'shoes'
@@ -87,7 +87,7 @@ export const PRODUCTS = [
     },
     {
         id:10,
-        title: "title 10",
+        title: "Le lorem ipsum",
         price: 100,
         img: ceinture,
         categorie: 'tie'

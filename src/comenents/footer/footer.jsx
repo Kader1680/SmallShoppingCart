@@ -50,7 +50,7 @@ export default function Footer() {
 </div>
 </div>
 <div class="text-center mt-5">
-<p class="footer-alt mb-0 f-14">2019 © Anup, All Rights Reserved</p>
+<p class="footer-alt mb-0 f-14">2023 © Anup, Develop BY ABDELKADER OULD HENNIA</p>
 </div>
         </footer>
     </div>

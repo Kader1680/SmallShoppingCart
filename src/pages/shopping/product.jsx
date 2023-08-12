@@ -1,45 +1,35 @@
-import React, {useContext, useState} from 'react'
+import React, {useContext, useState, useEffect} from 'react'
 import './product.css'
 import {ShopContext} from "../../context/ShopContext"
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import Cart from '../cart/cart';
+
 
 export default function Product(props) {
     const {id, title, price, img} = props.data
     const { cartItems, AddCart, RemoveCart } = useContext(ShopContext);
     const cartItemAmount = cartItems[id]
     
+    const [count, setcount] = useState(0);
+   
   return (
-    <div class="products">
-        <div className='text-black feild rounded'>
-            <img src ={img}  />
-            <div className='info'>
-                <div class=" d-flex justify-content-around">
-                  <p className=' fw-bolder'>{title}</p>
-                  <p className=' fw-bolder'>{price}$</p>
-                  
-                </div>
-                <p className='ms-2 myp'>this is product</p>
-                <div class='star ms-2'>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star-half-stroke"></i>
-                </div>
-                <button className=' '  onClick={()=>{
-                  
-                  AddCart(id)
-                }}>add to cart
-                
-                {/* {
-                  // if cartitem > 0 then 
-                  cartItemAmount > 0 && <span className='p-2 counter'> {cartItemAmount} </span>
-                } */}
-                
-                </button>
-                
-            </div>
+    <div class="container23">
+      
+      <div class="product-card">
+        <div class="product-image">
+          <img src= {img} alt="Product Image" />
         </div>
+        <div class="product-details">
+          <h2 class="product-title">{title}</h2>
+          <p class="product-price">{price}</p>
+          <p class="product-description">This is a brief description of the product.</p>
+          <div class="buttons">
+            <button onClick={()=>{ AddCart(id)} } class="add-to-cart"><i onClick={()=>setcount(count + 1)} class="fa-solid fa-bag-shopping"></i></button>
+            <div style={{ borderRadius: "50px", padding:"5px 10px", backgroundColor: "red", color :"white" }}>{count}</div>
+            <button class="compare"><i class="fa-solid fa-bookmark"></i></button>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

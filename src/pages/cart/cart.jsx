@@ -13,7 +13,7 @@ export default function Cart() {
     <div className=''>
       <div className='contianer no-cart'>
           <img src= {noshopinh} />
-          <h4>Your cart is empty!</h4>
+          <h4>Your cart is Here!</h4>
           <p>Browse our categories and discover our best deals!</p>
       </div>
       <div class="cartitems container">
