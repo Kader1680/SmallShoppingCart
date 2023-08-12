@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SmallShoppingCart/static/css/main.d126acf2.css",
-    "main.js": "/SmallShoppingCart/static/js/main.b3d0ff9b.js",
+    "main.css": "/SmallShoppingCart/static/css/main.0d0bad12.css",
+    "main.js": "/SmallShoppingCart/static/js/main.b8ec5c50.js",
     "static/js/787.c337d5b1.chunk.js": "/SmallShoppingCart/static/js/787.c337d5b1.chunk.js",
     "static/media/13706225_2012.i211.010..man's suit realistic.jpg": "/SmallShoppingCart/static/media/13706225_2012.i211.010..man's suit realistic.62669d43885770039225.jpg",
     "static/media/pair-trainers.jpg": "/SmallShoppingCart/static/media/pair-trainers.5de6ee710a91fd23b897.jpg",
@@ -40,12 +40,12 @@
     "static/media/logo.png": "/SmallShoppingCart/static/media/logo.c63260751f29e92da11f.png",
     "static/media/r (1).png": "/SmallShoppingCart/static/media/r (1).96c73cb49987ccdf1154.png",
     "index.html": "/SmallShoppingCart/index.html",
-    "main.d126acf2.css.map": "/SmallShoppingCart/static/css/main.d126acf2.css.map",
-    "main.b3d0ff9b.js.map": "/SmallShoppingCart/static/js/main.b3d0ff9b.js.map",
+    "main.0d0bad12.css.map": "/SmallShoppingCart/static/css/main.0d0bad12.css.map",
+    "main.b8ec5c50.js.map": "/SmallShoppingCart/static/js/main.b8ec5c50.js.map",
     "787.c337d5b1.chunk.js.map": "/SmallShoppingCart/static/js/787.c337d5b1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d126acf2.css",
-    "static/js/main.b3d0ff9b.js"
+    "static/css/main.0d0bad12.css",
+    "static/js/main.b8ec5c50.js"
   ]
 }
