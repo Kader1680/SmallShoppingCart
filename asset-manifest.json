@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SmallShoppingCart/static/css/main.59654d68.css",
-    "main.js": "/SmallShoppingCart/static/js/main.07979ff7.js",
+    "main.css": "/SmallShoppingCart/static/css/main.d126acf2.css",
+    "main.js": "/SmallShoppingCart/static/js/main.b3d0ff9b.js",
     "static/js/787.c337d5b1.chunk.js": "/SmallShoppingCart/static/js/787.c337d5b1.chunk.js",
     "static/media/13706225_2012.i211.010..man's suit realistic.jpg": "/SmallShoppingCart/static/media/13706225_2012.i211.010..man's suit realistic.62669d43885770039225.jpg",
     "static/media/pair-trainers.jpg": "/SmallShoppingCart/static/media/pair-trainers.5de6ee710a91fd23b897.jpg",
@@ -31,16 +31,21 @@
     "static/media/dennislingo_premium_attire_black_flat-front_tapered_fit_cargo_pants.jpg": "/SmallShoppingCart/static/media/dennislingo_premium_attire_black_flat-front_tapered_fit_cargo_pants.c912fafc50ab661edb89.jpg",
     "static/media/h.png": "/SmallShoppingCart/static/media/h.aaee6c7183fbeb29bc48.png",
     "static/media/dennislingo_premium_attire_black_denim_jacket_with_flap_pockets_.jpg": "/SmallShoppingCart/static/media/dennislingo_premium_attire_black_denim_jacket_with_flap_pockets_.09baa4dff3a9b35d7de7.jpg",
+    "static/media/r (5).png": "/SmallShoppingCart/static/media/r (5).74b8eae435ef129af07d.png",
+    "static/media/r (3).png": "/SmallShoppingCart/static/media/r (3).6a74646d33fd074457a1.png",
     "static/media/dennislingo_premium_attire_grey_flat-front_tapered_fit_cargo_pants.jpg": "/SmallShoppingCart/static/media/dennislingo_premium_attire_grey_flat-front_tapered_fit_cargo_pants.75478d9820eb84323ce0.jpg",
+    "static/media/r (2).png": "/SmallShoppingCart/static/media/r (2).81587ab67c7974aef5f1.png",
     "static/media/club_chino_navy_blue_tapered_fit_flat-front_trousers.jpg": "/SmallShoppingCart/static/media/club_chino_navy_blue_tapered_fit_flat-front_trousers.cdaeaf7dfbb4722a900b.jpg",
+    "static/media/r (4).png": "/SmallShoppingCart/static/media/r (4).7c621fbac12a0c49a9f7.png",
     "static/media/logo.png": "/SmallShoppingCart/static/media/logo.c63260751f29e92da11f.png",
+    "static/media/r (1).png": "/SmallShoppingCart/static/media/r (1).96c73cb49987ccdf1154.png",
     "index.html": "/SmallShoppingCart/index.html",
-    "main.59654d68.css.map": "/SmallShoppingCart/static/css/main.59654d68.css.map",
-    "main.07979ff7.js.map": "/SmallShoppingCart/static/js/main.07979ff7.js.map",
+    "main.d126acf2.css.map": "/SmallShoppingCart/static/css/main.d126acf2.css.map",
+    "main.b3d0ff9b.js.map": "/SmallShoppingCart/static/js/main.b3d0ff9b.js.map",
     "787.c337d5b1.chunk.js.map": "/SmallShoppingCart/static/js/787.c337d5b1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.59654d68.css",
-    "static/js/main.07979ff7.js"
+    "static/css/main.d126acf2.css",
+    "static/js/main.b3d0ff9b.js"
   ]
 }
