@@ -1,9 +1,16 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './footer.css'
+
+
+import {ThemeContext} from "../../App"
+
+
 export default function Footer() {
+  const dark = useContext(ThemeContext)
+
   return (
     <div>
-       <footer class="section bg-footer">
+       <footer class="section bg-footer " style={ { backgroundColor: dark ? "black" : "white "}} >
        <div class="container">
 <div class="row">
 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 ">

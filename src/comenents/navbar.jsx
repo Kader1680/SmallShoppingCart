@@ -1,15 +1,19 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
-
+import '../App'
 import "./navbar.scss"
 import { useState } from 'react';
-import logo from "../img/logo.png"
+import Mycount from '../comenents/Count';
+
+
+import {ThemeContext} from "../App"
 
 // import MyCount from './Count';
 export default function Navbar() {
 
-
+  const dark = useContext(ThemeContext)
+  
   const [Nav, setNav] = useState(false);
 
   function Dnav() {
@@ -17,27 +21,26 @@ export default function Navbar() {
   }
 
 
-
   
   return (
-    <nav className=' p-4 '>
+    <nav className=' p-4 ' style={ { backgroundColor: dark ? "black" : "white "}}  >
           
             <div className='container content'>
             <h4>
                 <Link class="logo text-decoration-none" to="/SmallShoppingCart">
-                    Shopping Cart
+                    logo
                 </Link>
             </h4>
-            <div class={`leftSide ${(Nav ? "blk" : '')}`}>
-              <ul>
-                <li>
-                  <Link target="_parent" class="text-decoration-none" to="/SmallShoppingCart">Home</Link>
+            <div style={{ color : dark ? "white" : "black"  }} class={`leftSide ${(Nav ? "blk" : '')}`}>
+              <ul >
+                <li  >
+                  <Link style={{ color : dark ? "white" : "black"  }}  target="_parent" class="text-decoration-none" to="/SmallShoppingCart">Home</Link>
                 </li>
                 <li>
-                  <Link target="_parent" class="text-decoration-none" to="/SmallShoppingCart/shop">Product</Link>
+                  <Link style={{ color : dark ? "white" : "black"  }} target="_parent" class="text-decoration-none" to="/SmallShoppingCart/shop">Product</Link>
                 </li>
                 <li>
-                   <Link target="_parent" class="text-decoration-none" to="/SmallShoppingCart/test">TestiPmonial</Link>
+                   <Link style={{ color : dark ? "white" : "black"  }} target="_parent" class="text-decoration-none" to="/SmallShoppingCart/test">TestiPmonial</Link>
                 </li>
                 
               </ul>
@@ -47,12 +50,12 @@ export default function Navbar() {
                 </div>
             </div>
 
-            <Link to="/SmallShoppingCart/cart"><i class="shop text-decoration-none fa-solid fa-cart-shopping fs-4">
+            <Link to="/SmallShoppingCart/cart"><i style={{ color : dark ? "white" : "black"  }} class="shop text-decoration-none fa-solid fa-cart-shopping fs-4">
             
             </i>
             
             </Link>
-            <Link to="/SmallShoppingCart/login"><i class="fa-solid fa-user fs-4"></i></Link>
+            <Link to="/SmallShoppingCart/login"><i style={{ color : dark ? "white" : "black"  }} class="fa-solid fa-user fs-4"></i></Link>
 
             <i onClick={Dnav} class= "fs-2 fa-solid fa-bars"></i>
             </div>

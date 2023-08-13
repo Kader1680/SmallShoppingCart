@@ -1,12 +1,16 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import z from '../img/r (1).png'
 import z1 from '../img/r (2).png'
 import z2 from '../img/r (3).png'
 import z3 from '../img/r (4).png'
 import z4 from '../img/r (5).png'
+import { ThemeContext } from '../App'
+
 const Head = () => {
+const dark = useContext(ThemeContext);
+
   return (
-    <div style={{color:"#0a0d35", margin: "25px 0px 50px 0px" }} className='text-center ms-4 me-4'>
+    <div style={{color: dark ? "white" :"#0a0d35" , margin: "25px 0px 50px 0px" }} className='text-center ms-4 me-4'>
     <h1 style={ {  textDecoration:"underline " }} >Ower Testimonial</h1>
     <p style={ { textAlign:"center", Width: "200px" }}> Lorem ipsum is a placeholder text commonly used to demonstrate
     Lorem ipsum is a placeholder text commonly used to demonstrate
