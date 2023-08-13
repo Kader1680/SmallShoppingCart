@@ -10,7 +10,7 @@ export default function Footer() {
 
   return (
     <div>
-       <footer class="section bg-footer " style={ { backgroundColor: dark ? "black" : "white "}} >
+       <footer class="section bg-footer " style={ { backgroundColor: dark ? "black" : "#0a0d35 "}} >
        <div class="container">
 <div class="row">
 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 ">

@@ -28,7 +28,8 @@ export default function Navbar() {
             <div className='container content'>
             <h4>
                 <Link class="logo text-decoration-none" to="/SmallShoppingCart">
-                    logo
+                   {/* <i class="fa-solid fa-moon"></i>
+                   <i class="fa-solid fa-sun"></i> */}
                 </Link>
             </h4>
             <div style={{ color : dark ? "white" : "black"  }} class={`leftSide ${(Nav ? "blk" : '')}`}>

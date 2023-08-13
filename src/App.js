@@ -13,6 +13,7 @@ import Login from "./pages/login/form";
 import Home from "./pages/home/home";
 import Footer from "./comenents/footer/footer";
 import Product from "./pages/shopping/product";
+import Mode from "./comenents/Mode";
 
 export const ThemeContext = createContext();
 export  function App() {
@@ -26,10 +27,14 @@ export  function App() {
     <ThemeContext.Provider value={dark} >
 
 <div  className="App">
-              <button  style={{ zIndex:"9999", position:"absolute" }} onClick={DarkMethod} >click</button>
+          
+              {/* <button   >click</button> */}
       <ShopContextProvider>
       <Router>
               <Navbar  />
+              <div className=" container" onClick={DarkMethod}>
+              <Mode  />
+              </div>
               <Routes>
               
                   <Route path="/SmallShoppingCart" element={<Home/>} />
