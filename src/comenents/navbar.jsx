@@ -38,7 +38,7 @@ export default function Navbar() {
                   <Link style={{ color : dark ? "white" : "black"  }}  target="_parent" class="text-decoration-none" to="/SmallShoppingCart">Home</Link>
                 </li>
                 <li>
-                  <Link style={{ color : dark ? "white" : "black"  }} target="_parent" class="text-decoration-none" to="/SmallShoppingCart/shop">Product</Link>
+                  <Link style={{ color : dark ? "white" : "black"  }} target="_parent" class="text-decoration-none" to="/shop">Product</Link>
                 </li>
                 <li>
                    <Link style={{ color : dark ? "white" : "black"  }} target="_parent" class="text-decoration-none" to="/SmallShoppingCart/test">TestiPmonial</Link>

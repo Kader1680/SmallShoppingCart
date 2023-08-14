@@ -39,7 +39,7 @@ export  function App() {
               
                   <Route path="/SmallShoppingCart" element={<Home/>} />
                   <Route path="/SmallShoppingCart/test" element={<Test />} />
-                  <Route path="/SmallShoppingCart/shop" element={<Shopping/>} />
+                  <Route path="/shop" element={<Shopping/>} />
                   <Route path="/SmallShoppingCart/login" element={<Login />} />
                   <Route path="/SmallShoppingCart/cart" element={<Cart/>} />
               </Routes>
