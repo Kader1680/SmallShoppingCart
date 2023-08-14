@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SmallShoppingCart/static/css/main.0d0bad12.css",
-    "main.js": "/SmallShoppingCart/static/js/main.8549621f.js",
+    "main.css": "/SmallShoppingCart/static/css/main.1109f110.css",
+    "main.js": "/SmallShoppingCart/static/js/main.ec3a5490.js",
     "static/js/787.c337d5b1.chunk.js": "/SmallShoppingCart/static/js/787.c337d5b1.chunk.js",
     "static/media/13706225_2012.i211.010..man's suit realistic.jpg": "/SmallShoppingCart/static/media/13706225_2012.i211.010..man's suit realistic.62669d43885770039225.jpg",
     "static/media/pair-trainers.jpg": "/SmallShoppingCart/static/media/pair-trainers.5de6ee710a91fd23b897.jpg",
@@ -11,8 +11,6 @@
     "static/media/fashion-shoes-sneakers.jpg": "/SmallShoppingCart/static/media/fashion-shoes-sneakers.9b638c22676f25a760d8.jpg",
     "static/media/black-pair-shoes-beauty-male.jpg": "/SmallShoppingCart/static/media/black-pair-shoes-beauty-male.b612380e254f3fb40ab7.jpg",
     "static/media/e.png": "/SmallShoppingCart/static/media/e.c23d938c3bea7a251f37.png",
-    "static/media/slid-1.jpg": "/SmallShoppingCart/static/media/slid-1.cb922bd246be60092345.jpg",
-    "static/media/slid-3.jpg": "/SmallShoppingCart/static/media/slid-3.2b9d13d95bc66b270395.jpg",
     "static/media/heading.jpg": "/SmallShoppingCart/static/media/heading.fb59688bd08e8a31e7b0.jpg",
     "static/media/ceinture.png": "/SmallShoppingCart/static/media/ceinture.dbceecc5102c68e90116.png",
     "static/media/cassketetwo.png": "/SmallShoppingCart/static/media/cassketetwo.44cf9a7efb1efc21b44c.png",
@@ -27,7 +25,6 @@
     "static/media/produkt_by_jack_&_jones_blue_denim_jacket_with_flap_pockets.jpg": "/SmallShoppingCart/static/media/produkt_by_jack_&_jones_blue_denim_jacket_with_flap_pockets.6937759f39d2c6d603f0.jpg",
     "static/media/john_players_olive_&_yellow_zip-front_slim_fit_track_jacket.jpg": "/SmallShoppingCart/static/media/john_players_olive_&_yellow_zip-front_slim_fit_track_jacket.abf0c52b174d794fae88.jpg",
     "static/media/casskete.png": "/SmallShoppingCart/static/media/casskete.ab15e49511a078348b7b.png",
-    "static/media/slid-2.jpg": "/SmallShoppingCart/static/media/slid-2.21b548739d8dc7e937a9.jpg",
     "static/media/dennislingo_premium_attire_black_flat-front_tapered_fit_cargo_pants.jpg": "/SmallShoppingCart/static/media/dennislingo_premium_attire_black_flat-front_tapered_fit_cargo_pants.c912fafc50ab661edb89.jpg",
     "static/media/h.png": "/SmallShoppingCart/static/media/h.aaee6c7183fbeb29bc48.png",
     "static/media/dennislingo_premium_attire_black_denim_jacket_with_flap_pockets_.jpg": "/SmallShoppingCart/static/media/dennislingo_premium_attire_black_denim_jacket_with_flap_pockets_.09baa4dff3a9b35d7de7.jpg",
@@ -39,12 +36,12 @@
     "static/media/r (4).png": "/SmallShoppingCart/static/media/r (4).7c621fbac12a0c49a9f7.png",
     "static/media/r (1).png": "/SmallShoppingCart/static/media/r (1).96c73cb49987ccdf1154.png",
     "index.html": "/SmallShoppingCart/index.html",
-    "main.0d0bad12.css.map": "/SmallShoppingCart/static/css/main.0d0bad12.css.map",
-    "main.8549621f.js.map": "/SmallShoppingCart/static/js/main.8549621f.js.map",
+    "main.1109f110.css.map": "/SmallShoppingCart/static/css/main.1109f110.css.map",
+    "main.ec3a5490.js.map": "/SmallShoppingCart/static/js/main.ec3a5490.js.map",
     "787.c337d5b1.chunk.js.map": "/SmallShoppingCart/static/js/787.c337d5b1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d0bad12.css",
-    "static/js/main.8549621f.js"
+    "static/css/main.1109f110.css",
+    "static/js/main.ec3a5490.js"
   ]
 }
