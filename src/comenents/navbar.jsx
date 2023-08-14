@@ -5,7 +5,7 @@ import '../App'
 import "./navbar.scss"
 import { useState } from 'react';
 import Mycount from '../comenents/Count';
-
+import brand from "../img/brand.png"
 
 import {ThemeContext} from "../App"
 
@@ -28,20 +28,19 @@ export default function Navbar() {
             <div className='container content'>
             <h4>
                 <Link class="logo text-decoration-none" to="/SmallShoppingCart">
-                   {/* <i class="fa-solid fa-moon"></i>
-                   <i class="fa-solid fa-sun"></i> */}
+                   <img style={{ width:"50px" }} src= { brand }  />
                 </Link>
             </h4>
             <div style={{ color : dark ? "white" : "black"  }} class={`leftSide ${(Nav ? "blk" : '')}`}>
-              <ul >
+              <ul  >
                 <li  >
-                  <Link style={{ color : dark ? "white" : "black"  }}   class="text-decoration-none" to="/SmallShoppingCart">Home</Link>
+                  <Link style={{ color : dark ? "white" : "black"  }}  target="_parent" class="text-decoration-none" to="/SmallShoppingCart">Home</Link>
                 </li>
                 <li>
-                  <Link style={{ color : dark ? "white" : "black"  }} class="text-decoration-none" to="/SmallShoppingCart/shop">Product</Link>
+                  <Link style={{ color : dark ? "white" : "black"  }} target="_parent" class="text-decoration-none" to="/SmallShoppingCart/shop">Product</Link>
                 </li>
                 <li>
-                   <Link style={{ color : dark ? "white" : "black"  }}  class="text-decoration-none" to="/SmallShoppingCart/test">TestiPmonial</Link>
+                   <Link style={{ color : dark ? "white" : "black"  }} target="_parent" class="text-decoration-none" to="/SmallShoppingCart/test">TestiPmonial</Link>
                 </li>
                 
               </ul>
@@ -58,7 +57,7 @@ export default function Navbar() {
             </Link>
             <Link to="/SmallShoppingCart/login"><i style={{ color : dark ? "white" : "black"  }} class="fa-solid fa-user fs-4"></i></Link>
 
-            <i onClick={Dnav} class= "fs-2 fa-solid fa-bars"></i>
+            <i onClick={Dnav} style={{ color : dark ? "white" : "black"  }} class= "fs-2 fa-solid fa-bars"></i>
             </div>
 
     </nav>

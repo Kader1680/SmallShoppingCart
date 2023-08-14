@@ -1,19 +1,23 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import './form.scss'
 import { Link } from 'react-scroll';
-
+ import { ThemeContext } from '../../App';
 export default function Login() {
+
+  const dark = useContext(ThemeContext)
+
+
   return (
     <div>
 
 
-    <div class="formbold-main-wrapper">
+    <div class="formbold-main-wrapper" style={{ backgroundColor: dark ? "black": "white"} }>
 
   <div class="formbold-form-wrapper">
-    <form style={ {padding: "10px 17px"}} action="/" method="POST">
+    <form style={ {padding: "10px 17px", backgroundColor: dark ? "gray": "white"}} action="/" method="POST">
         <div class="formbold-input-flex">
           <div>
-              <label for="firstname" class="formbold-form-label"> First name </label>
+              <label style={{ color: dark ? "white": "#07074D" }} for="firstname" class="formbold-form-label"> First name </label>
               <input
               type="text"
               name="firstname"
@@ -23,7 +27,7 @@ export default function Login() {
               />
           </div>
           <div>
-              <label for="lastname" class="formbold-form-label"> Last name </label>
+              <label style={{ color: dark ? "white": "#07074D" }} for="lastname" class="formbold-form-label"> Last name </label>
               <input
               type="text"
               name="lastname"
@@ -36,7 +40,7 @@ export default function Login() {
 
         <div class="formbold-input-flex">
           <div>
-              <label for="email" class="formbold-form-label"> Mail </label>
+              <label style={{ color: dark ? "white": "#07074D" }} for="email" class="formbold-form-label"> Mail </label>
               <input
               type="email"
               name="email"
@@ -46,7 +50,7 @@ export default function Login() {
               />
           </div>
           <div>
-              <label for="phone" class="formbold-form-label"> Phone </label>
+              <label style={{ color: dark ? "white": "#07074D" }} for="phone" class="formbold-form-label"> Phone </label>
               <input
               type="text"
               name="phone"
@@ -60,7 +64,7 @@ export default function Login() {
         
 
         <div>
-            <label for="message" class="formbold-form-label"> Message </label>
+            <label style={{ color: dark ? "white": "#07074D" }} for="message" class="formbold-form-label"> Message </label>
             <textarea
                 rows="6"
                 name="message"
@@ -70,7 +74,7 @@ export default function Login() {
             ></textarea>
         </div>
 
-        <button class="formbold-btn">
+        <button style={{ backgroundColor: dark ? "white": "black", color: dark ? "black": "white" }} class="formbold-btn">
             Send Message
         </button>
         

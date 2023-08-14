@@ -1,6 +1,5 @@
 import { React, createContext, useState } from "react"
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
-
 import Navbar from "./comenents/navbar"
 import Cart from "./pages/cart/cart";
 import Test from "./comenents/testimonial/test";
@@ -9,7 +8,7 @@ import "./App.css"
 // import ShopContext from "./context/ShopContext";
 
 import ShopContextProvider from "./context/ShopContext"
-import SliderImg from "./comenents/SliderImg";
+// import SliderImg from "./comenents/SliderImg";
 import Login from "./pages/login/form";
 import Home from "./pages/home/home";
 import Footer from "./comenents/footer/footer";
