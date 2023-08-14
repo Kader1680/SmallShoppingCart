@@ -35,13 +35,13 @@ export default function Navbar() {
             <div style={{ color : dark ? "white" : "black"  }} class={`leftSide ${(Nav ? "blk" : '')}`}>
               <ul >
                 <li  >
-                  <Link style={{ color : dark ? "white" : "black"  }}  target="_parent" class="text-decoration-none" to="/SmallShoppingCart">Home</Link>
+                  <Link style={{ color : dark ? "white" : "black"  }}   class="text-decoration-none" to="/SmallShoppingCart">Home</Link>
                 </li>
                 <li>
-                  <Link style={{ color : dark ? "white" : "black"  }} target="_parent" class="text-decoration-none" to="/shop">Product</Link>
+                  <Link style={{ color : dark ? "white" : "black"  }} class="text-decoration-none" to="/SmallShoppingCart/shop">Product</Link>
                 </li>
                 <li>
-                   <Link style={{ color : dark ? "white" : "black"  }} target="_parent" class="text-decoration-none" to="/SmallShoppingCart/test">TestiPmonial</Link>
+                   <Link style={{ color : dark ? "white" : "black"  }}  class="text-decoration-none" to="/SmallShoppingCart/test">TestiPmonial</Link>
                 </li>
                 
               </ul>

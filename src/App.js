@@ -1,5 +1,6 @@
 import { React, createContext, useState } from "react"
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
+
 import Navbar from "./comenents/navbar"
 import Cart from "./pages/cart/cart";
 import Test from "./comenents/testimonial/test";
@@ -24,32 +25,35 @@ export  function App() {
   }
 
   return (
-    <ThemeContext.Provider value={dark} >
+    <BrowserRouter>
+      <ThemeContext.Provider value={dark} >
 
-<div  className="App">
+      <div  className="App">
+                
+                    {/* <button   >click</button> */}
+            <ShopContextProvider>
+           
+                    <Navbar  />
+                    <div className=" container" onClick={DarkMethod}>
+                    <Mode  />
+                    </div>
+                    <Routes>
+                    
+                        <Route path="/SmallShoppingCart" element={<Home/>} />
+                        <Route path="/SmallShoppingCart/test" element={<Test />} />
+                        <Route path="/SmallShoppingCart/shop" element={<Shopping/>} />
+                        <Route path="/SmallShoppingCart/login" element={<Login />} />
+                        <Route path="/SmallShoppingCart/cart" element={<Cart/>} />
+                    </Routes>
+                    <Footer/>
+                
+            </ShopContextProvider>
+
+          </div>
+
+          </ThemeContext.Provider>
           
-              {/* <button   >click</button> */}
-      <ShopContextProvider>
-      <Router>
-              <Navbar  />
-              <div className=" container" onClick={DarkMethod}>
-              <Mode  />
-              </div>
-              <Routes>
-              
-                  <Route path="/SmallShoppingCart" element={<Home/>} />
-                  <Route path="/SmallShoppingCart/test" element={<Test />} />
-                  <Route path="/shop" element={<Shopping/>} />
-                  <Route path="/SmallShoppingCart/login" element={<Login />} />
-                  <Route path="/SmallShoppingCart/cart" element={<Cart/>} />
-              </Routes>
-              <Footer/>
-          </Router>
-      </ShopContextProvider>
-
-    </div>
-
-    </ThemeContext.Provider>
+    </BrowserRouter>
     
   );
 }
