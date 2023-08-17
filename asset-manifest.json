@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SmallShoppingCart/static/css/main.1109f110.css",
-    "main.js": "/SmallShoppingCart/static/js/main.ac29e957.js",
+    "main.js": "/SmallShoppingCart/static/js/main.f4c240c0.js",
     "static/js/787.c337d5b1.chunk.js": "/SmallShoppingCart/static/js/787.c337d5b1.chunk.js",
     "static/media/13706225_2012.i211.010..man's suit realistic.jpg": "/SmallShoppingCart/static/media/13706225_2012.i211.010..man's suit realistic.62669d43885770039225.jpg",
     "static/media/pair-trainers.jpg": "/SmallShoppingCart/static/media/pair-trainers.5de6ee710a91fd23b897.jpg",
@@ -37,11 +37,11 @@
     "static/media/r (1).png": "/SmallShoppingCart/static/media/r (1).96c73cb49987ccdf1154.png",
     "index.html": "/SmallShoppingCart/index.html",
     "main.1109f110.css.map": "/SmallShoppingCart/static/css/main.1109f110.css.map",
-    "main.ac29e957.js.map": "/SmallShoppingCart/static/js/main.ac29e957.js.map",
+    "main.f4c240c0.js.map": "/SmallShoppingCart/static/js/main.f4c240c0.js.map",
     "787.c337d5b1.chunk.js.map": "/SmallShoppingCart/static/js/787.c337d5b1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1109f110.css",
-    "static/js/main.ac29e957.js"
+    "static/js/main.f4c240c0.js"
   ]
 }
