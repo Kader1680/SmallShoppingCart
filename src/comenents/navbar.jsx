@@ -15,11 +15,13 @@ export default function Navbar() {
   const dark = useContext(ThemeContext)
   
   const [Nav, setNav] = useState(false);
-
+  const [close, setclose] = useState(false);
   function Dnav() {
         setNav(!Nav)
   }
-
+  function Close() {
+    setclose(!close)
+}
 
   
   return (
@@ -34,15 +36,15 @@ export default function Navbar() {
             <div style={{ color : dark ? "white" : "black"  }} class={`leftSide ${(Nav ? "blk" : '')}`}>
               <ul  >
                 <li  >
-                  <Link style={{ color : dark ? "white" : "black"  }}  target="_parent" class="text-decoration-none" to="/SmallShoppingCart">Home</Link>
+                  <Link style={{ color : dark ? "white" : "black"  }}   class="text-decoration-none" to="/SmallShoppingCart">Home</Link>
                 </li>
                 <li>
-                  <Link style={{ color : dark ? "white" : "black"  }} target="_parent" class="text-decoration-none" to="/SmallShoppingCart/shop">Product</Link>
+                  <Link style={{ color : dark ? "white" : "black"  }}  class="text-decoration-none" to="/SmallShoppingCart/shop">Product</Link>
                 </li>
                 <li>
-                   <Link style={{ color : dark ? "white" : "black"  }} target="_parent" class="text-decoration-none" to="/SmallShoppingCart/test">TestiPmonial</Link>
+                   <Link style={{ color : dark ? "white" : "black"  }} class="text-decoration-none" to="/SmallShoppingCart/test">TestiPmonial</Link>
                 </li>
-                
+                <button onClick={Dnav} style={{ backgroundColor: "#0a0d35", color: "white" }} class="btn pt-2 pb-2 ps-5 pe-5 mt-5 d-md-none" role="button">close</button>
               </ul>
               <div className='search'>
                 <input className=' border-none' />
@@ -57,7 +59,9 @@ export default function Navbar() {
             </Link>
             <Link to="/SmallShoppingCart/login"><i style={{ color : dark ? "white" : "black"  }} class="fa-solid fa-user fs-4"></i></Link>
 
-            <i onClick={Dnav} style={{ color : dark ? "white" : "black"  }} class= "fs-2 fa-solid fa-bars"></i>
+            <span onClick={Dnav}>
+               <i onClick={Close}   style={{ color : dark ? "white" : "black"  }} class={`fs-1 fa-solid ${(close ? "fa-close" : "fa-bars" )} `} ></i>
+            </span>
             </div>
 
     </nav>

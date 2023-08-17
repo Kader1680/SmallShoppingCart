@@ -1,5 +1,5 @@
 import { React, createContext, useState } from "react"
-import { BrowserRouter, Routes, Route} from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Router} from 'react-router-dom';
 import Navbar from "./comenents/navbar"
 import Cart from "./pages/cart/cart";
 import Test from "./comenents/testimonial/test";
