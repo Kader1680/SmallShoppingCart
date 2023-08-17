@@ -1,13 +1,17 @@
-import React, {useState} from 'react'
+import React, {useContext, useState} from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {PRODUCTS} from "../../product"
 import Product from "./product"
 import './shopping.css'
+import { ThemeContext } from '../../App';
+
+
+
 
 export default function Shopping() {
 
   const [data, setdata] = useState(PRODUCTS);
-
+  const dark = useContext(ThemeContext)
  
   const Filter = (Categorie) => {
       const result = PRODUCTS.filter((CategoryProduct)=>{
@@ -18,16 +22,16 @@ export default function Shopping() {
   }
   
   return (
-    <div>
-        <div  className=" categorie d-flex">
-              <p onClick={()=>setdata(PRODUCTS) }>all</p>
-              <p onClick={()=>Filter('men')}>Man</p>
-              <p onClick={()=>Filter('Cap') }>Cap </p>
-              <p onClick={()=>Filter('shoes') }>Shoes</p>
-              <p onClick={()=>Filter('tie') }>tie</p>
-              <p onClick={()=>Filter('classic') }>Classic</p>
+    <div style={{ backgroundColor: dark ? "black" : " " }} >
+        <div style={{ backgroundColor: dark ? "black" : " " }}  className=" categorie d-flex">
+              <p style={{ backgroundColor: dark ? "white" : " ", color: dark ? "black" : " " } }   onClick={()=>setdata(PRODUCTS) }>all</p>
+              <p style={{ backgroundColor: dark ? "white" : " ", color: dark ? "black" : " " } } onClick={()=>Filter('men')}>Man</p>
+              <p style={{ backgroundColor: dark ? "white" : " ", color: dark ? "black" : " " } } onClick={()=>Filter('Cap') }>Cap </p>
+              <p style={{ backgroundColor: dark ? "white" : " ", color: dark ? "black" : " " } } onClick={()=>Filter('shoes') }>Shoes</p>
+              <p style={{ backgroundColor: dark ? "white" : " ", color: dark ? "black" : " " } } onClick={()=>Filter('tie') }>tie</p>
+              <p style={{ backgroundColor: dark ? "white" : " ", color: dark ? "black" : " " } } onClick={()=>Filter('classic') }>Classic</p>
             </div>
-        <div className='products ' >
+        <div  style={{ backgroundColor: dark ? "black" : " " }} className='products ' >
             
             
             {

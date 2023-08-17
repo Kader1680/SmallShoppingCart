@@ -33,8 +33,8 @@ export default function Navbar() {
                    <img style={{ width:"50px" }} src= { brand }  />
                 </Link>
             </h4>
-            <div style={{ color : dark ? "white" : "black"  }} class={`leftSide ${(Nav ? "blk" : '')}`}>
-              <ul  >
+            <div style={{ color : dark ? "white" : "black"  , backgroundColor :dark ? "black" : ""  }} class={`leftSide ${(Nav ? "blk" : '')}`}>
+              <ul   >
                 <li  >
                   <Link style={{ color : dark ? "white" : "black"  }}   class="text-decoration-none" to="/SmallShoppingCart">Home</Link>
                 </li>
@@ -44,7 +44,7 @@ export default function Navbar() {
                 <li>
                    <Link style={{ color : dark ? "white" : "black"  }} class="text-decoration-none" to="/SmallShoppingCart/test">TestiPmonial</Link>
                 </li>
-                <button onClick={Dnav} style={{ backgroundColor: "#0a0d35", color: "white" }} class="btn pt-2 pb-2 ps-5 pe-5 mt-5 d-md-none" role="button">close</button>
+                <button onClick={Dnav} style={{ backgroundColor: "#0a0d35", color: "white" }} class="btn pt-2 pb-2 ps-5 pe-5 mt-5 d-md-none" role="button"><span onClick={Close}>close</span></button>
               </ul>
               <div className='search'>
                 <input className=' border-none' />
@@ -60,7 +60,7 @@ export default function Navbar() {
             <Link to="/SmallShoppingCart/login"><i style={{ color : dark ? "white" : "black"  }} class="fa-solid fa-user fs-4"></i></Link>
 
             <span onClick={Dnav}>
-               <i onClick={Close}   style={{ color : dark ? "white" : "black"  }} class={`fs-1 fa-solid ${(close ? "fa-close" : "fa-bars" )} `} ></i>
+               <i onClick={Close}   style={{ color : dark ? "white" : "black"  }} class={`fs-1 fa-solid  ${(close ? "fa-close" : " fa-bars" )} `} ></i>
             </span>
             </div>
 

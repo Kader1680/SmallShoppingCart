@@ -14,7 +14,7 @@ export default function Login() {
     <div class="formbold-main-wrapper" style={{ backgroundColor: dark ? "black": "white"} }>
 
   <div class="formbold-form-wrapper">
-    <form style={ {padding: "10px 17px", backgroundColor: dark ? "gray": "white"}} action="/" method="POST">
+    <form style={ {padding: "10px 17px"}} action="/" method="POST">
         <div class="formbold-input-flex">
           <div>
               <label style={{ color: dark ? "white": "#07074D" }} for="firstname" class="formbold-form-label"> First name </label>
