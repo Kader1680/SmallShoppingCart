@@ -12,7 +12,7 @@ const dark = useContext(ThemeContext);
   return (
     <div style={{color: dark ? "white" :"#0a0d35" , margin: "25px 0px 50px 0px" }} className='text-center ms-4 me-4'>
     <h1 style={ {  textDecoration:"underline " }} >Ower Testimonial</h1>
-    <p style={ { textAlign:"center", Width: "200px" }}> Lorem ipsum is a placeholder text commonly used to demonstrate
+    <p style={ { textAlign:"center", Width: "70%", margin:"30px auto" }}> Lorem ipsum is a placeholder text commonly used to demonstrate
     Lorem ipsum is a placeholder text commonly used to demonstrate
     </p>
     <div class="">

@@ -1,13 +1,5 @@
 
 
-.MyCard{
-    margin: auto;
-    max-width: 950px;
-    width: 90%;
-    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 1rem;
-    border: transparent;
-}
 @media(max-width:767px){
     .MyCard{
         margin: 3vh auto;
@@ -16,15 +8,22 @@
 .MyCart{
     width: 100%;
     background-color: #fff;
-    padding: 4vh 5vh;
     border-bottom-left-radius: 1rem;
     border-top-left-radius: 1rem;
+    margin-top: 1rem;
 }
 @media(max-width:767px){
     .MyCart{
-        padding: 4vh;
         border-bottom-left-radius: unset;
         border-top-right-radius: 1rem;
+        width: calc(100% - 40px);
+        margin: 1.5rem auto;
+        padding: 30px 0;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
     }
 }
 a{
