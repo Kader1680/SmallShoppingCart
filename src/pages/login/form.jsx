@@ -74,7 +74,7 @@ export default function Login() {
             ></textarea>
         </div>
 
-        <button style={{ backgroundColor: dark ? "white": "black", color: dark ? "black": "white" }} class="formbold-btn">
+        <button style={{ backgroundColor: dark ? "black": "black", color: dark ? "white": "white"}} class="formbold-btn">
             Send Message
         </button>
         
